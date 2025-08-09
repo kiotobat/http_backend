@@ -1,0 +1,26 @@
+{
+  "name": "http_backend",
+  "version": "1.0.0",
+  "description": "Сервер на фреймворке Express от Netology",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kiotobat/http_backend.git"
+  },
+  "author": "Spartak",
+  "license": "ISC",
+  "type": "module",
+  "engines": {
+    "node": ">=16.0.0 <21.0.0"
+  },
+  "dependencies": {
+    "body-parser": "^2.2.0",
+    "cors": "^2.8.5",
+    "express": "^5.1.0",
+    "pino": "^9.8.0",
+    "pino-pretty": "^13.1.1"
+  }
+}
